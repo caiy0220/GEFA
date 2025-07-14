@@ -1,0 +1,23 @@
+seed: 1111
+
+explainer: 'GEFA'
+m_name: 'inception'
+cuda: True
+test: True
+batch_size: 16
+
+verbose: False
+
+fix_beta: 0
+beta: 0
+
+stride: 500
+edit_ratio: 1.0
+softmax_wrapped: 1
+v_default: 'blur'
+baseline: 'blur'
+
+num_instances: 1000
+num_samples: 5000
+filter_width: 51
+filter_sigma: 11
